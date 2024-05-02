@@ -1,0 +1,82 @@
+.contact-main {
+  background-color: #f5f2ed;
+  padding: 40px 0px;
+}
+.contact-paragraph-box {
+  padding: 40px 150px;
+}
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-weight: 800 !important;
+  font-size: 40px !important;
+}
+.conatct-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  padding-top: 16px;
+
+  text-align: justify;
+  font-size: 24px !important;
+}
+.react-form-wrapper {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.react-form-child-wrap {
+  margin: 0px 20px;
+}
+.form-detail-txt {
+  font-size: 25px;
+}
+.form-label {
+  margin-bottom: 5px;
+}
+.form-react-text {
+  background-color: #f5f2ed;
+  margin-top: 100px;
+  width: 100%;
+}
+.text-area-label {
+  margin-top: 10px;
+}
+.meassage-text-area {
+  background-color: #f5f2ed;
+  width: 100%;
+  border: 1px soild #f5f2ed;
+  border-radius: 10px;
+}
+.react-last-submit-btn {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.react-last-submit-btn .conatct-submit-btn {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-paragraph-box {
+    padding: 40px 70px;
+  }
+
+  .greeting-footer1 .btn-dark {
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 4px 10px;
+  }
+}

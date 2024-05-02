@@ -1,0 +1,12 @@
+.select-menu-btn {
+  color: black !important;
+}
+.use-image {
+  font-weight: 700 !important;
+}
+.flag-image {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

@@ -1,0 +1,98 @@
+.padding-container {
+  padding: 0px 75px;
+}
+
+.banner-main {
+  height: 400px;
+  background: linear-gradient(
+      270deg,
+      rgba(178, 25, 27, 0.85) 0%,
+      rgba(111, 15, 16, 0.85) 100%
+    ),
+    url("../../images/banner.jpeg");
+  background-size: cover;
+  margin-top: 10px;
+  background-position: center;
+}
+
+.greeting-footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greeting-footer1 .btn-dark {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+.banner-position {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  right: 20px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+.subtitle {
+  padding: 5px;
+  display: flex;
+  justify-content: center !important;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+@media only screen and (max-width: 600px) {
+  .banner-main {
+    height: 300px;
+  }
+
+  .padding-container {
+    padding: 0px 25px;
+  }
+  .banner-position {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    right: 20px;
+  }
+  .heading {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .subtitle {
+    font-weight: 100 !important;
+    font-size: 12px !important;
+  }
+  .greeting-footer1 .btn-dark {
+    font-size: 8px;
+    border-radius: 10px;
+    padding: 4px 10px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .banner-position {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    right: 20px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .banner-position {
+    position: absolute;
+    top: 55%;
+    left: 20px;
+    right: 20px;
+  }
+}

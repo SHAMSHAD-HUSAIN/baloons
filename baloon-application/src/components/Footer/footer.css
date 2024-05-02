@@ -1,0 +1,139 @@
+.padding-container {
+  padding: 0px 75px;
+}
+
+.pets-icon {
+  font-size: 135px !important;
+  color: red;
+}
+.footer-paragraph {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: black;
+  font-weight: 500;
+  padding-top: 16px;
+}
+.footer-second-grid {
+  position: absolute;
+  left: 72%;
+}
+.down-heading {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: black;
+  font-weight: 500;
+  padding-top: 16px;
+}
+.download-app-box {
+  justify-content: center;
+  /* display: none; */
+}
+.download-app {
+  display: flex;
+  width: 300px;
+  height: 90px;
+  background-color: black;
+  border: 1 px solid black;
+  margin-top: 10px;
+}
+.apple-icon {
+  color: white;
+  font-size: 40px !important;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.app-store-box {
+  margin-top: 10px;
+}
+
+.icon-typo {
+  color: white;
+  padding-left: 20px;
+  font-size: 12px !important;
+  font-weight: 100 !important;
+}
+.app-store-text {
+  color: white;
+  padding-left: 20px;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+  padding-bottom: 0px;
+}
+
+.footer-colon-section {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px 80px 20px 0px;
+  margin-bottom: 5px;
+}
+.footer-col-conatiner {
+  padding: 20px 15px !important;
+}
+.footer-col-grid {
+  padding: 0px !important;
+}
+.footer-link {
+  padding: 0px !important;
+  width: 220px !important;
+}
+.footer-item-text {
+  margin: 0px !important;
+}
+.local-phone-icon,
+.mail-icon {
+  margin-right: 6px;
+}
+.copyright-text {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-arrow-icon-box {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.key-arrow-icon {
+  font-size: 33px !important;
+  color: white;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 699px) {
+  .padding-container {
+    padding: 0px 25px;
+  }
+  .icon-box {
+    padding: 0px 7px;
+  }
+  .footer-second-grid {
+    position: static;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .footer-second-grid {
+    position: absolute;
+    left: 52%;
+  }
+}
+@media only screen and (min-width: 912px) {
+  .footer-second-grid {
+    position: absolute;
+    left: 64%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .footer-second-grid {
+    position: absolute;
+    left: 72%;
+  }
+}
